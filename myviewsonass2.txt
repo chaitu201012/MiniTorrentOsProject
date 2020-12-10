@@ -1,0 +1,5 @@
+made the "creater" of group as the "owner". maintain a map for group_owner 
+"group owner" should be login to accept the join group requests and 
+client should be part of the group before downloading the files in the group 
+After joining the group client can see all the shareable files in the group 
+store piece wise sha into a vector map<pair<filenmae string, hash>,pair<string()>>

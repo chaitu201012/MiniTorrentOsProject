@@ -1,0 +1,16 @@
+g++ -o tracker tracker.cpp -lpthread -lcrypto
+
+g++ -o peer peer.cpp -lpthread 
+
+g++ -o peer peer.cpp -lpthread -lcrypto
+
+./client 127.0.0.1:5000 tracker_info.txt
+./client 127.0.0.1:6000 tracker_info.txt
+./client 127.0.0.1:7000 tracker_info.txt
+./client 127.0.0.1:8000 tracker_info.txt
+
+r./tracker tracker_info.txt 1
+
+
+/home/saitama25/Documents/ASSIGNMENTS/AOS/minitorrent/commands.txt
+/home/saitama25/Desktop/
